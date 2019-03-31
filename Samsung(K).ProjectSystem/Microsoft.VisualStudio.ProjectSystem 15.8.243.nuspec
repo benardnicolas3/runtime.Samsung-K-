@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.VisualStudio.ProjectSystem</id>
+    <version>15.8.243</version>
+    <title>Visual Studio Project System Reference Assemblies</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft,VisualStudioExtensibility</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://go.microsoft.com/fwlink/?linkid=840959</licenseUrl>
+    <projectUrl>http://aka.ms/VSProjectSystemExtensibility</projectUrl>
+    <iconUrl>http://aka.ms/VsExtensibilityIcon</iconUrl>
+    <description>Reference assemblies for Visual Studio Project System Extensibility</description>
+    <summary>Visual Studio Project System reference assemblies</summary>
+    <releaseNotes></releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <language></language>
+    <tags>VisualStudio Extensibility ProjectSystem</tags>
+    <dependencies>
+      <dependency id="Microsoft.Build" version="15.8.166" />
+      <dependency id="Microsoft.Build.Framework" version="15.8.166" />
+      <dependency id="Microsoft.Build.Tasks.Core" version="15.8.166" />
+      <dependency id="System.Threading.Tasks.Dataflow" version="4.5.24" />
+      <dependency id="Microsoft.VisualStudio.Composition" version="15.8.98" />
+      <dependency id="Microsoft.VisualStudio.Threading" version="15.8.132" />
+      <dependency id="Microsoft.VisualStudio.Validation" version="15.3.58" />
+      <dependency id="System.Collections.Immutable" version="1.5.0" />
+      <dependency id="System.Composition" version="1.0.31" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.IO.Compression.FileSystem" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Reflection" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Security" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="System.Design" targetFramework=".NETFramework4.6" />
+      <frameworkAssembly assemblyName="WindowsFormsIntegration" targetFramework=".NETFramework4.6" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="build\AdditionalFiles\vs-threading.MainThreadAssertingMethods.txt" target="build\AdditionalFiles\vs-threading.MainThreadAssertingMethods.txt" />
+    <file src="build\AdditionalFiles\vs-threading.MainThreadSwitchingMethods.txt" target="build\AdditionalFiles\vs-threading.MainThreadSwitchingMethods.txt" />
+    <file src="build\Microsoft.VisualStudio.ProjectSystem.targets" target="build\Microsoft.VisualStudio.ProjectSystem.targets" />
+    <file src="lib\net46\cs\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\cs\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\de\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\de\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\es\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\es\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\fr\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\fr\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\it\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\it\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\ja\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\ja\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\ko\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\ko\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\pl\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\pl\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\pt-BR\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\pt-BR\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\ru\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\ru\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\tr\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\tr\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\zh-Hans\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\zh-Hans\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\zh-Hant\Microsoft.VisualStudio.ProjectSystem.resources.dll" target="lib\net46\zh-Hant\Microsoft.VisualStudio.ProjectSystem.resources.dll" />
+    <file src="lib\net46\Microsoft.VisualStudio.ProjectSystem.dll" target="lib\net46\Microsoft.VisualStudio.ProjectSystem.dll" />
+    <file src="lib\net46\Microsoft.VisualStudio.ProjectSystem.Interop.dll" target="lib\net46\Microsoft.VisualStudio.ProjectSystem.Interop.dll" />
+    <file src="lib\net46\Microsoft.VisualStudio.ProjectSystem.Interop.xml" target="lib\net46\Microsoft.VisualStudio.ProjectSystem.Interop.xml" />
+    <file src="lib\net46\Microsoft.VisualStudio.ProjectSystem.VS.dll" target="lib\net46\Microsoft.VisualStudio.ProjectSystem.VS.dll" />
+    <file src="lib\net46\Microsoft.VisualStudio.ProjectSystem.VS.xml" target="lib\net46\Microsoft.VisualStudio.ProjectSystem.VS.xml" />
+    <file src="lib\net46\Microsoft.VisualStudio.ProjectSystem.xml" target="lib\net46\Microsoft.VisualStudio.ProjectSystem.xml" />
+  </files>
+</package>
